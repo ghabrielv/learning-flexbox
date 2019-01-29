@@ -7,3 +7,4 @@
 5. Align elements on the main axis with justify-content.
 6. Align elements on the secondary axis with align-items.
 7. Align child elements individually on the secondary axis with align-self.
+8. Flexible children ignore float, clear, vertical-align properties.
