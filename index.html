@@ -19,22 +19,25 @@
 		.box1 {
 			background: blue;
 			align-self: flex-start;
+			flex-grow: 1;
 		}
 		.box2 {
 			background: green;
 			float: right; /* Ignore in the child */
 			clear: both; /* Ignore in the child */
 			vertical-align: bottom; /* Ignore in the child */
+			flex-grow: 1;
 		}
 		.box3 {
 			background: pink;
 			align-self: flex-end;
+			flex-grow: 0;
 		}
 	</style>
 </head>
 <body>
 	<section>
-		<article class="box1">Box 1</article>
+		<article class="box1">This is the box 1</article>
 		<article class="box2">Box 2</article>
 		<article class="box3">Box 3</article>
 	</section>

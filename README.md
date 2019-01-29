@@ -8,3 +8,4 @@
 6. Align elements on the secondary axis with align-items.
 7. Align child elements individually on the secondary axis with align-self.
 8. Flexible children ignore float, clear, vertical-align properties.
+9. Modify the size of flexible children with flex-grow, flex-shrink, flex-basis.
